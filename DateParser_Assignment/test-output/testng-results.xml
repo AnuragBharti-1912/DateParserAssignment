@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="35" passed="35">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1011" started-at="2020-07-01T19:04:12Z" finished-at="2020-07-01T19:04:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1011" started-at="2020-07-01T19:04:12Z" finished-at="2020-07-01T19:04:13Z">
+      <class name="com.propine.qa.test.LandingPageTest">
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="21" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MMM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MMM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MMM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MMM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MMM-YY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="2" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MMMM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="0" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MMMM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MMMM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="0" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MMMM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MMMM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="0" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MM-YY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MM-YY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD/MM/YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD/MM/YY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD MM YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD MM YY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MM DD YY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MM DD YY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MMM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[YYYY/MM/DD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD MM YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="2" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD MMMM YYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D MMMM YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D MMMM YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D-M-Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="0" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MMMM YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D/M YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D/M-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+        <test-method status="PASS" signature="DateParserTest(java.lang.String)[pri:0, instance:com.propine.qa.test.LandingPageTest@72967906]" name="DateParserTest" duration-ms="1" started-at="2020-07-02T00:34:13Z" data-provider="dateParserTestData" finished-at="2020-07-02T00:34:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DD-MM-YYYY]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DateParserTest -->
+      </class> <!-- com.propine.qa.test.LandingPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

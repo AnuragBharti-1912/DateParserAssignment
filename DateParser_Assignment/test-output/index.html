@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Anurag Bharti\AppData\Local\Temp\testng-eclipse-426692764\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">35 methods,   35 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(MM DD YY)">DateParserTest(MM DD YY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MMM-YYYY)">DateParserTest(DD-MMM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MM-YYYY)">DateParserTest(DD-MM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(D-M-Y)">DateParserTest(D-M-Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MMMM YYYY)">DateParserTest(DD-MMMM YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MMMM-YYYY)">DateParserTest(DD-MMMM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD MM YYYY)">DateParserTest(DD MM YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MM-YYYY)">DateParserTest(DD-MM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MMM-YYYY)">DateParserTest(DD-MMM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MMM-YYYY)">DateParserTest(DD-MMM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD/MM/YY)">DateParserTest(DD/MM/YY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(D MMMM YYYY)">DateParserTest(D MMMM YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(D/M-YYYY)">DateParserTest(D/M-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MMM-YY)">DateParserTest(DD-MMM-YY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MMM-YYYY)">DateParserTest(DD-MMM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MM-YYYY)">DateParserTest(DD-MM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MMMM-YYYY)">DateParserTest(DD-MMMM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MM-YYYY)">DateParserTest(DD-MM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MM-YY)">DateParserTest(DD-MM-YY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MM-YYYY)">DateParserTest(DD-MM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MMMM-YYYY)">DateParserTest(DD-MMMM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD MM YY)">DateParserTest(DD MM YY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD/MM/YYYY)">DateParserTest(DD/MM/YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MM-YY)">DateParserTest(DD-MM-YY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MMMM-YYYY)">DateParserTest(DD-MMMM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(D MMMM YYYY)">DateParserTest(D MMMM YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MM-YYYY)">DateParserTest(DD-MM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MMM-YYYY)">DateParserTest(DD-MMM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MM-YYYY)">DateParserTest(DD-MM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD MMMM YYY)">DateParserTest(DD MMMM YYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD MM YYYY)">DateParserTest(DD MM YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(MM DD YY)">DateParserTest(MM DD YY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(DD-MMMM-YYYY)">DateParserTest(DD-MMMM-YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(YYYY/MM/DD)">DateParserTest(YYYY/MM/DD)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.propine.qa.test.LandingPageTest" hash-for-method="DateParserTest(D/M YYYY)">DateParserTest(D/M YYYY)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.propine.qa.test.LandingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(MM DD YY)">
+                  </a> <!-- DateParserTest(MM DD YY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(MM DD YY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MMM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MMM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MMM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(D-M-Y)">
+                  </a> <!-- DateParserTest(D-M-Y) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(D-M-Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MMMM YYYY)">
+                  </a> <!-- DateParserTest(DD-MMMM YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MMMM YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MMMM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MMMM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MMMM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD MM YYYY)">
+                  </a> <!-- DateParserTest(DD MM YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD MM YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MMM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MMM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MMM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MMM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MMM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MMM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD/MM/YY)">
+                  </a> <!-- DateParserTest(DD/MM/YY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD/MM/YY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(D MMMM YYYY)">
+                  </a> <!-- DateParserTest(D MMMM YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(D MMMM YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(D/M-YYYY)">
+                  </a> <!-- DateParserTest(D/M-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(D/M-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MMM-YY)">
+                  </a> <!-- DateParserTest(DD-MMM-YY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MMM-YY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MMM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MMM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MMM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MMMM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MMMM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MMMM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MM-YY)">
+                  </a> <!-- DateParserTest(DD-MM-YY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MM-YY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MMMM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MMMM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MMMM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD MM YY)">
+                  </a> <!-- DateParserTest(DD MM YY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD MM YY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD/MM/YYYY)">
+                  </a> <!-- DateParserTest(DD/MM/YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD/MM/YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MM-YY)">
+                  </a> <!-- DateParserTest(DD-MM-YY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MM-YY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MMMM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MMMM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MMMM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(D MMMM YYYY)">
+                  </a> <!-- DateParserTest(D MMMM YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(D MMMM YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MMM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MMM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MMM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD MMMM YYY)">
+                  </a> <!-- DateParserTest(DD MMMM YYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD MMMM YYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD MM YYYY)">
+                  </a> <!-- DateParserTest(DD MM YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD MM YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(MM DD YY)">
+                  </a> <!-- DateParserTest(MM DD YY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(MM DD YY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(DD-MMMM-YYYY)">
+                  </a> <!-- DateParserTest(DD-MMMM-YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(DD-MMMM-YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(YYYY/MM/DD)">
+                  </a> <!-- DateParserTest(YYYY/MM/DD) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(YYYY/MM/DD)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DateParserTest(D/M YYYY)">
+                  </a> <!-- DateParserTest(D/M YYYY) -->
+                  <span class="method-name">DateParserTest</span>
+                  <span class="parameters">(D/M YYYY)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Anurag Bharti\AppData\Local\Temp\testng-eclipse-426692764\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.propine.qa.test.LandingPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(35);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'DateParserTest')
+data.setCell(0, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(0, 3, 21);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'DateParserTest')
+data.setCell(1, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(1, 3, 2);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DateParserTest')
+data.setCell(2, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(2, 3, 2);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'DateParserTest')
+data.setCell(3, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'DateParserTest')
+data.setCell(4, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(4, 3, 1);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'DateParserTest')
+data.setCell(5, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(5, 3, 1);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'DateParserTest')
+data.setCell(6, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(6, 3, 1);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'DateParserTest')
+data.setCell(7, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'DateParserTest')
+data.setCell(8, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'DateParserTest')
+data.setCell(9, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'DateParserTest')
+data.setCell(10, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'DateParserTest')
+data.setCell(11, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(11, 3, 1);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'DateParserTest')
+data.setCell(12, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(12, 3, 1);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'DateParserTest')
+data.setCell(13, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(13, 3, 1);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'DateParserTest')
+data.setCell(14, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(14, 3, 1);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'DateParserTest')
+data.setCell(15, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(15, 3, 1);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'DateParserTest')
+data.setCell(16, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(16, 3, 1);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'DateParserTest')
+data.setCell(17, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(17, 3, 1);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'DateParserTest')
+data.setCell(18, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(18, 3, 1);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'DateParserTest')
+data.setCell(19, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(19, 3, 1);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'DateParserTest')
+data.setCell(20, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(20, 3, 1);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'DateParserTest')
+data.setCell(21, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(21, 3, 1);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'DateParserTest')
+data.setCell(22, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(22, 3, 1);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'DateParserTest')
+data.setCell(23, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(23, 3, 1);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'DateParserTest')
+data.setCell(24, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(24, 3, 1);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'DateParserTest')
+data.setCell(25, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(25, 3, 1);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'DateParserTest')
+data.setCell(26, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(26, 3, 1);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'DateParserTest')
+data.setCell(27, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'DateParserTest')
+data.setCell(28, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(28, 3, 1);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'DateParserTest')
+data.setCell(29, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(29, 3, 1);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'DateParserTest')
+data.setCell(30, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(30, 3, 1);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'DateParserTest')
+data.setCell(31, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'DateParserTest')
+data.setCell(32, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'DateParserTest')
+data.setCell(33, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'DateParserTest')
+data.setCell(34, 2, 'com.propine.qa.test.LandingPageTest')
+data.setCell(34, 3, 0);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 53 ms</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.propine.qa.test.LandingPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MMM-YYYY)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MMM-YYYY)</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MMM-YYYY)</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MMM-YYYY)</span>
+                <span class="method-start">27 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MMM-YY)</span>
+                <span class="method-start">29 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MMMM-YYYY)</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MMMM-YYYY)</span>
+                <span class="method-start">34 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MMMM-YYYY)</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MMMM-YYYY)</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MMMM-YYYY)</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MM-YYYY)</span>
+                <span class="method-start">39 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MM-YY)</span>
+                <span class="method-start">41 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MM-YYYY)</span>
+                <span class="method-start">42 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MM-YY)</span>
+                <span class="method-start">44 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD/MM/YYYY)</span>
+                <span class="method-start">46 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD/MM/YY)</span>
+                <span class="method-start">48 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD MM YYYY)</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD MM YY)</span>
+                <span class="method-start">51 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(MM DD YY)</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(MM DD YY)</span>
+                <span class="method-start">54 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MM-YYYY)</span>
+                <span class="method-start">55 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MMM-YYYY)</span>
+                <span class="method-start">57 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(YYYY/MM/DD)</span>
+                <span class="method-start">59 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD MM YYYY)</span>
+                <span class="method-start">61 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD MMMM YYY)</span>
+                <span class="method-start">62 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(D MMMM YYYY)</span>
+                <span class="method-start">64 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(D MMMM YYYY)</span>
+                <span class="method-start">65 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(D-M-Y)</span>
+                <span class="method-start">66 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MMMM YYYY)</span>
+                <span class="method-start">68 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(D/M YYYY)</span>
+                <span class="method-start">69 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(D/M-YYYY)</span>
+                <span class="method-start">70 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MM-YYYY)</span>
+                <span class="method-start">71 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MM-YYYY)</span>
+                <span class="method-start">73 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MM-YYYY)</span>
+                <span class="method-start">75 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DateParserTest(DD-MM-YYYY)</span>
+                <span class="method-start">76 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
