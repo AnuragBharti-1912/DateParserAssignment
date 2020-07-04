@@ -7,7 +7,7 @@
         <methods>
           <include name="teardown"/>
           <include name="initialize"/>
-          <include name="DateParser" invocation-numbers="5 8 10 11 12 13 14 15 16 17 18 19 20 30 31 32 33"/>
+          <include name="DateParser" invocation-numbers="1 5 8 10 11 12 13 14 15 16 17 18 19 20 30 31 32 33"/>
         </methods>
       </class> <!-- com.propine.qa.test.LandingPageTest -->
     </classes>
