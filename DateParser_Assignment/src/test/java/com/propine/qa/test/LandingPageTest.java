@@ -60,7 +60,7 @@ public class LandingPageTest extends BasePage {
 					.appendOptional(DateTimeFormatter.ofPattern("dd/M-uuuu")).toFormatter(Locale.ENGLISH);
 
 			LocalDate parsedLocalDate = LocalDate.parse(strDateFromExcel,ALL_POSSIBLE_DATE_FORMAT.withResolverStyle(ResolverStyle.STRICT));
-			//System.out.println("Day= " + parsedDate.getDayOfMonth() + ", " + "Month=" + parsedDate.getMonthValue()+" , " + "Year=" + parsedDate.getYear());
+
 			ZoneId defaultZoneId = ZoneId.systemDefault();
 			Date dateFromExcel = Date.from(parsedLocalDate.atStartOfDay(defaultZoneId).toInstant());
 			LandingPage lp = new LandingPage();
@@ -70,7 +70,7 @@ public class LandingPageTest extends BasePage {
 				SimpleDateFormat format = new SimpleDateFormat("EEE MMM dd yyyy HH:mm:ss");
 				Date dateFromWebPage = format.parse(strDateFromWebPage);
 				if (dateFromExcel != null && dateFromWebPage != null) {
-					System.out.println("d1 "+dateFromExcel+ " d2 "+dateFromWebPage+" compare "+dateFromExcel.compareTo(dateFromWebPage));
+					System.out.println("d1 = "+dateFromExcel+ " d2 = "+dateFromWebPage+" compare returns "+dateFromExcel.compareTo(dateFromWebPage));
 					Assert.assertTrue(dateFromExcel.compareTo(dateFromWebPage) == 0, "");
 				}
 			}
@@ -81,9 +81,7 @@ public class LandingPageTest extends BasePage {
 
 	@DataProvider(name = "dateParserTestData")
 	public Object[][] passData() {
-		ReadExcelLibrary config = new ReadExcelLibrary(
-				"C:\\Users\\Anurag Bharti\\git\\DateParser\\DateParser_Assignment"
-						+ "\\src\\main\\java\\com\\propine\\testdata\\Propine_Test_Data.xlsx");
+		ReadExcelLibrary config = new ReadExcelLibrary(Path+ "\\src\\main\\java\\com\\propine\\testdata\\Propine_Test_Data.xlsx");
 		int rows = config.getRowCount(0) + 1;
 		System.out.println("Total no of rows :"+rows);
 
